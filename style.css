@@ -1,0 +1,14 @@
+.box {
+    width: 1280px;
+    height: 720px;
+    background-color: black; /* ✅ 이 div만 검은색 */
+    margin: 300px auto; /* 가운데 정렬 */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    display: block;
+}
