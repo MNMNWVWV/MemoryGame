@@ -180,10 +180,8 @@ canvas.addEventListener("click", (e) => {
                     rect_buttons[i].remove();
                     rect_buttons.splice(i, 1); // 수정: 해당 버튼만 제거
                     cnt++;
-                    console.log("정답!");
                 } else {
                     end_screen();
-                    console.log("오답!");
                 }
                 break;
             }
